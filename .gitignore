@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large datasets
+dataset/raw_audio/
+dataset/processed_audio/
+dataset/videos/
+
+# Generated features
+dataset/features/mfcc/
+dataset/features/chroma/
+dataset/features/mel/
+dataset/features/pitch/
+dataset/features/segments/
+
+# Models
+models/*.pth
+models/*.pt
+models/*.ckpt
+
+# Generated outputs
+outputs/figures/
+outputs/generated_audio/
+
+# Keep these
+!dataset/metadata/
+!dataset/metadata/**
+!dataset/metadata_json/
+!dataset/metadata_json/**
+!dataset/features/audio_features.csv
