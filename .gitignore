@@ -21,6 +21,7 @@ Thumbs.db
 dataset/raw_audio/
 dataset/processed_audio/
 dataset/videos/
+dataset/segments/
 
 # Generated features
 dataset/features/mfcc/
@@ -28,6 +29,8 @@ dataset/features/chroma/
 dataset/features/mel/
 dataset/features/pitch/
 dataset/features/segments/
+dataset/segment_features/mel/
+dataset/segment_features/mfcc/
 
 # Models
 models/*.pth
