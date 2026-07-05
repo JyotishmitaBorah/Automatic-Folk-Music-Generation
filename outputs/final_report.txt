@@ -1,0 +1,22 @@
+============================================================
+AUTOMATIC FOLK MUSIC GENERATION
+============================================================
+
+RAAG SIMILARITY
+Bilawal      : 1.000
+Kafi         : 1.000
+Bhairav      : 1.000
+Kalyan       : 1.000
+Asavari      : 1.000
+
+ORIGINAL vs GENERATED
+original_notes : 5239080
+generated_notes : 762
+original_mean : 603.6636392267345
+generated_mean : -2.372703412073491
+original_std : 344.9059174154965
+generated_std : 12.132370976027813
+
+============================================================
+Project Completed Successfully
+============================================================

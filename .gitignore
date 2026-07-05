@@ -1,47 +1,83 @@
+# ==================================================
 # Python
+# ==================================================
 __pycache__/
 *.py[cod]
+*.pyo
 
-# Virtual environments
+# ==================================================
+# Virtual Environments
+# ==================================================
 .venv/
 venv/
 env/
 
-# VS Code
+# ==================================================
+# IDE
+# ==================================================
 .vscode/
+.idea/
 
+# ==================================================
 # Jupyter
+# ==================================================
 .ipynb_checkpoints/
 
+# ==================================================
 # OS
+# ==================================================
 .DS_Store
 Thumbs.db
 
-# Large datasets
+# ==================================================
+# Raw Dataset
+# ==================================================
 dataset/raw_audio/
 dataset/processed_audio/
 dataset/videos/
 dataset/segments/
+dataset/note_sequences/
 
-# Generated features
+# ==================================================
+# Extracted Features
+# ==================================================
 dataset/features/mfcc/
 dataset/features/chroma/
 dataset/features/mel/
 dataset/features/pitch/
 dataset/features/segments/
-dataset/segment_features/mel/
-dataset/segment_features/mfcc/
+dataset/segment_features/
 
-# Models
+# ==================================================
+# Training Arrays
+# ==================================================
+dataset/training/*.npz
+
+# Keep vocabulary & metadata
+!dataset/training/symbolic_vocab.json
+!dataset/training/symbolic_meta.json
+
+# ==================================================
+# Trained Models
+# ==================================================
 models/*.pth
 models/*.pt
 models/*.ckpt
 
-# Generated outputs
-outputs/figures/
-outputs/generated_audio/
+# ==================================================
+# Generated Outputs
+# ==================================================
+outputs/generated_symbolic/
+outputs/*.png
 
-# Keep these
+# ==================================================
+# Final Packaged Results
+# ==================================================
+Final_Project_Output/
+
+# ==================================================
+# Keep Metadata
+# ==================================================
 !dataset/metadata/
 !dataset/metadata/**
 !dataset/metadata_json/

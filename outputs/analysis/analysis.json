@@ -1,0 +1,13 @@
+{
+    "original_notes": 61260,
+    "generated_notes": 1000,
+    "original_unique_pitches": 88,
+    "generated_unique_pitches": 63,
+    "pitch_similarity": 0.6818,
+    "mean_original_duration": 0.2236,
+    "mean_generated_duration": 0.1999,
+    "duration_difference": 0.0237,
+    "mean_original_interval": 0.0003,
+    "mean_generated_interval": -0.0092,
+    "interval_difference": 0.0095
+}
